@@ -14,34 +14,25 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="navbar-nav text-uppercase ml-auto">
-                    {% for link in site.data.navigation[site.locale].nav %}
-            
-                    {% if link.dropdown %}
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Build Wikiworld
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        {% for sublink in link.dropdown %}
-                        <a class="dropdown-item js-scroll-trigger" href="#{{ sublink.section }}">{{ sublink.title }}</a>
-                        {% endfor %}
-                      </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
                     </li>
-            
-                    {% else %}
-            
-                    <li class="nav-item">
-                      {%- if link.section -%}
-                      <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
-                      {%- else -%}
-                      <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-                      {%- endif -%}
+                    <li>
+                        <a class="page-scroll" href="#services">Introduction</a>
                     </li>
-                    {%- endif -%}
-            
-                    {% endfor %}
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Countries</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">People</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Discussion</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Conclusion</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
