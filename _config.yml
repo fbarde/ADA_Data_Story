@@ -10,7 +10,7 @@ description: "Write an awesome description for your new site here. You can edit 
 # Team names, titles and social links
 people:
 - name: Flore Barde
-  pic: 1
+  pic: #
   position: Master Life Sciences
   social:
     - title: envelope
@@ -21,7 +21,7 @@ people:
       url: https://www.linkedin.com/in/flore-barde-75753a24a/
 
 - name: Manon Bechaz
-  pic: 2
+  pic: #
   position: Master Computational Sciences
   social:
     - title: envelope
@@ -32,7 +32,7 @@ people:
       url: #
 
 - name: Zoé Jeandupeux
-  pic: 3
+  pic: #
   position: Master Physics
   social:
     - title: envelope
