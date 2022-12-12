@@ -19,12 +19,12 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 a,
@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/wikiworld.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
