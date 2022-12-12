@@ -4,7 +4,7 @@ subtitle: Where do they come from ?
 layout: default
 modal-id: 1
 img: dreams.png
-thumbnail: dreams-thumbnail.png
+thumbnail: countries_thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap

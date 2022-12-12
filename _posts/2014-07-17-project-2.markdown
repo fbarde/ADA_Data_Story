@@ -1,11 +1,11 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Gender
+subtitle: What is the proportion of gender ? 
 layout: default
 modal-id: 2
 #date: 2014-07-17
 img: escape.png
-thumbnail: escape-thumbnail.png
+thumbnail: gender_thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
