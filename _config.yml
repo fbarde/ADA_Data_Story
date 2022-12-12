@@ -11,35 +11,46 @@ description: "Write an awesome description for your new site here. You can edit 
 people:
 - name: Flore Barde
   pic: 1
-  position: Life Sciences
+  position: Master Life Sciences
   social:
-    - title: github
-      url: https://github.com/fbarde
     - title: envelope
       url: flore.barde@epfl.ch
+    - title: github
+      url: https://github.com/fbarde
     - title: linkedin
       url: https://www.linkedin.com/in/flore-barde-75753a24a/
 
-- name: Larry Parker
+- name: Manon Bechaz
   pic: 2
-  position: Lead Marketer
+  position: Master Computational Sciences
   social:
-    - title: twitter
-      url: #
-    - title: facebook
+    - title: envelope
+      url: manon.bechaz@epfl.ch
+    - title: github
       url: #
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Zoé Jeandupeux
   pic: 3
-  position: Lead Developer
+  position: Master Physics
   social:
-    - title: twitter
+    - title: envelope
+      url: zoe.jeandupeux@epfl.ch
+    - title: github
       url: #
-    - title: facebook
+    - title: linkedin
       url: #
-    - title: google-plus
+
+- name: Killian Rigaux
+  pic: #
+  position: Master Physics
+  social:
+    - title: envelope
+      url: killian.rigaux@epfl.ch
+    - title: github
+      url: #
+    - title: linkedin
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
