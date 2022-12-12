@@ -1,8 +1,6 @@
 ---
 title: Countries
 subtitle: Where do they come from ?
-layout: default
-modal-id: 1
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
