@@ -15,8 +15,10 @@ people:
   social:
     - title: github
       url: https://github.com/fbarde
-    - title: email
+    - title: envelope
       url: flore.barde@epfl.ch
+    - title: linkedin
+      url: https://www.linkedin.com/in/flore-barde-75753a24a/
 
 - name: Larry Parker
   pic: 2
