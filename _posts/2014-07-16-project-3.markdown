@@ -1,6 +1,6 @@
 ---
 title: Age
-subtitle: What age category is predominant ?
+subtitle: How old are they ?
 layout: default
 modal-id: 3
 #date: 2014-07-16
