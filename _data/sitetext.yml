@@ -1,0 +1,45 @@
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+team:
+    title: "Meet the team"
+    section: team
+    people:
+      - name: "atalija Mitic"
+        first: "N"
+        role: "Computer Science <i class='fas fa-laptop'></i>"
+        social:
+          - url: mailto:naca@ntec.ch
+            icon: fa fa-envelope
+          - url: https://github.com/natalijamitic
+            icon: fab fa-github
+      - name: "dvin Maid"
+        first: "E"
+        role: "Computer Science <i class='fas fa-laptop'></i>"
+        social:
+          - url: mailto:edvvin@mail.com
+            icon: fa fa-envelope
+          - url: https://github.com/Edvvin
+            icon: fab fa-github
+      - name: "adenko Pejic"
+        first: "R"
+        role: "Computer Science <i class='fas fa-laptop'></i>"
+        social:
+          - url: mailto:radenkopejicvaljevo@gmail.com
+            icon: fa fa-envelope
+          - url: https://github.com/radenkoPejic
+            icon: fab fa-github
+      - name: "ilip Carevic"
+        first: "F"
+        role: "Computer Science <i class='fas fa-laptop'></i>"
+        social:
+          - url: mailto:filip.carevic11@gmail.com
+            icon: fa fa-envelope
+          - url: https://github.com/fcarevic
+            icon: fab fa-github
