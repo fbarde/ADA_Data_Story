@@ -8,106 +8,44 @@
 
         <div class="section-subheading text-justify lead">
 
-          With more than 6 million English articles, Wikipedia can be seen as the world's largest and most-read 
-          reference work in history. The platform proposes a quick and easy way to navigate between this mass of 
-          information through the usage of hyperlinks connecting different articles. How users of Wikipedia use 
-          these links give a real insight into the cultural connections that exist between diverse concepts. 
-          The Wikispeedia dataset provides even more information in that direction, by providing link paths made 
-          by players attempting to join two different concepts. These connection paths between articles thus 
-          exhibiting connections in the player’s imagination of these concepts. This connectivity graph allows us 
-          to construct a representation of Wikispeedia users reality, described through the centrality of 
-          countries, peoples and historical events. Our project aims at observing this vision of the world, 
-          and questioning the existing differences with our real world.
+          I am sure you have already heard of Wikipedia, right ? Every high-school student has already used it 
+          in order to cook up the best presentation for his History class !  With more than 6 million English 
+          articles, Wikipedia can be seen as the world's largest and most-read reference work in history. It is 
+          easy to get lost in this mass of information. However, the platform proposes a quick and easy way to 
+          navigate between this mass of information through the usage of hyperlinks (the blue links) connecting 
+          different articles. These blue links are super useful to go from Christopher Columbus’ Wikipedia page, 
+          to the one of the Americas, but not only ! Indeed, these hyperlinks can give a real insight into the 
+          cultural connections that exist between diverse concepts, such as historical figures and geographical 
+          locations. A game, Wikispeedia provides even more information in that direction !
           <br><br>
+          
+          <h4 class="section-heading mt-3 mb-3 tb-3">Wikispeedia who?</h4>
+          <div>
+            <a href="https://dlab.epfl.ch/wikispeedia/play/">Wikispeedia</a>Click the link if you want to play a 
+            game ! 
+            <br>
+            The Wikispeedia dataset provides even more information in that direction, by providing link paths made 
+            by players attempting to join two different concepts. These connection paths between articles thus 
+            exhibiting connections in the player’s imagination of these concepts. This connectivity graph allows us
+            to construct a representation of Wikispeedia users reality, described through the centrality of countries,
+            peoples and historical events. Our project aims at observing this vision of the world, and questioning the
+            existing differences with our real world.
+          </div><br>
+
           <div>
             {% include CC_age_gender.html %}
           </div>
-          <h5 class="section-heading mt-3 mb-3 tb-3">So why should we care?</h5>
+
+          <h4 class="section-heading mt-3 mb-3 tb-3">How does it work ?</h4>
           <div>
-            <p class="text-lg-left">
-            The short yet illustrious history of the United States of America has left its mark not only on the human
-            world, but the natural one as well. Leveraging the data from CAIT v2.0 we see the true historic impact on
-            the climate of the world from the actions of this country. <br><br>
-            </p>
-            <footer class="blockquote-footer">
-              Source: <a href="https://www.cgdev.org/media/who-caused-climate-change-historically">CO2 emissions
-                excluding LUCF, 1850-2011 (CAIT v2.0)</a> </footer>
-            <br>
-
-
-            With almost a quarter of all emissions, the US represents a major player. It is because of this that public
-            opinion on this problem is of international importance. In order to shed more light on the delicate topic,
-            we need to gain a better understanding of the mechanisms which are at work.
+            blablblaaaaaa
           </div><br>
 
-          <h5 class="section-heading mt-3 mb-3 tb-3">Where does the trail of breadcrumbs begin?</h5>
-          <div>
-            To answer the questions of interest we will take a look inside the <a class="smaller-font quotebank"
-              href="https://dlab.epfl.ch/people/west/pub/Vaucher-Spitz-Catasta-West_WSDM-21.pdf">Quotebank<span
-                class="quotebank-dot">.</span></a>, a dataset of 178 million
-            quotations. However, when only observing US politicians the set is reduced to around 5.7 million quotes
-            which is still an ocean of claims. In order to find the needed answers, we must define what it means for a
-            quote to be related to climate change. Superficially the problem might seem negligible, but it is inherently
-            difficult and necessary for us to narrow down the data closer to our problem space.</div><br>
-
-          <h5 class="section-heading mt-3 mb-3 tb-3">How do we know if a quote is about climate change?</h5>
-          <div>
-            To solve this problem we will use the power of data to define the data. We can do this in two ways. Firstly,
-            we can let the data speak for itself by using an unsupervised technique. Secondly, we can base our
-            definition on an external dataset that has been labeled by a human and rely on their definition of the
-            problem. Let us look at both techniques.
-            <li>
-              <h6 class="inline section-heading mt-3 mb-1 tb-3">FastText (unsupervised)</h6>
-              <div class="indent">
-                This model is able to train on a given corpus of text and learn sentence representation in a vector
-                format. The quotes had to be first cleaned using stop word removal, lower-casing and removing
-                punctuation. After training the model we need to select what is known as a "query". This is a sentence
-                which would be embedded and compared using cosine similarity to find the most similar quotes. The query
-                selected for the purpose of extracting climate change related quotes was "climate change" based on the
-                results on the validation set.
-              </div>
-            </li>
-            <li>
-              <h6 class="inline section-heading mt-3 mb-1 tb-3">BERT (supervised)</h6>
-              <div class="indent">
-                As previously stated we must have a labeled dataset for a supervised approach. Luckily, there is such a
-                dataset, <a
-                  href="https://www.sustainablefinance.uzh.ch/en/research/climate-fever/climatext.html">ClimaText</a>.
-                As the paper did not provide a trained model for this task we need to train one. The model used for this
-                is the <a href="https://huggingface.co/">Huggingface</a> implementation of distilled BERT for sequence
-                classification. After training, the
-                model returns the probability of a quote being related to climate change.
-              </div>
-            </li>
-
-            <h5 class="smaller-font inline section-heading mt-3 tb-3">Comparison</h5>
-
-
-            <br>
-            <h5 class="smaller-font inline section-heading mt-1 mb-1 tb-3">Two precision/recall curves</h5>
-            <div class="col-sm-12">
-            </div>
-            <div>
-              The general performance of the supervised technique is higher, for this reason, we decide to use this
-              model
-              to estimate the probability of a quote to be related to climate change.
-              <br><br>We continue by narrowing the dataset of 5.7 million quotes to a set of around 47000 by selecting
-              only those classified as being about climate change.
-            </div>
-          </div>
-
           <br><br>
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              WOW! That was a loooong introduction, so congratulations on getting this far. Now, let's cut to the chase
-              and get our hands dirty!
-              <br>
-              In the words of the former US president: <q><em>What the hell is going on with Global Waming?</em></q>
-              <div class="tweet">
-                <img src="assets/img/trumpClimateChange.jpg" alt="" srcset="">
-              </div>
-            </div>
-          </div>
+          
+          <div class="col-lg-12 text-center">
+            <h3 class="section-subheading text-muted">Ready to build the Wikiworld?</h3>
+        </div>
 
         </div>
       </div>
