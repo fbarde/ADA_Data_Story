@@ -2,7 +2,7 @@
 title: United States
 subtitle: Which words are associated to the U.S. ?
 layout: default
-modal-id: 1
+modal-id: 6
 #date: 2014-07-14
 img: us_map.png
 thumbnail: top3_thumbnail.jpg
