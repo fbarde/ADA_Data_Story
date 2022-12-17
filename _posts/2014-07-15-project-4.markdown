@@ -4,8 +4,8 @@ subtitle: What are their occupations ?
 layout: default
 modal-id: 4
 #date: 2014-07-15
-img: treehouse.png
-thumbnail: Village_ppl100_category.png
+img: Village_ppl100_category.png
+thumbnail: roundicons-thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
