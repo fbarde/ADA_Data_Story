@@ -2,7 +2,7 @@
 title: US
 subtitle: Where do they come from ?
 layout: default
-modal-id: 1
+modal-id: 6
 img: us_map.png
 thumbnail: countries_thumbnail.png
 alt: image-alt
