@@ -2,7 +2,7 @@
 title: Switzerland
 subtitle: Which words are associated to the U.S. ?
 layout: default
-modal-id: 1
+modal-id: 2
 #date: 2014-07-14
 img: ch_map.png
 thumbnail: top3_thumbnail.jpg
