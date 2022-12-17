@@ -1,11 +1,10 @@
 ---
-title: United States
-subtitle: Which words are associated to the U.S. ?
+title: US
+subtitle: Where do they come from ?
 layout: default
 modal-id: 1
-#date: 2014-07-14
 img: us_map.png
-thumbnail: top3_thumbnail.jpg
+thumbnail: countries_thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
