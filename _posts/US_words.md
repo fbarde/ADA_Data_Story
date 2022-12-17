@@ -4,7 +4,7 @@ subtitle: Which words are associated to the U.S. ?
 layout: default
 modal-id: 1
 #date: 2014-07-14
-img: startup-framework.png
+img: us_map.png
 thumbnail: top3_thumbnail.jpg
 alt: image-alt
 #project-date: April 2014
