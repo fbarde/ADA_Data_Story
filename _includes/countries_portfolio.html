@@ -1,14 +1,14 @@
-<!-- People Portfolio Grid Section -->
-    <section id="portfolio">
+<!-- Countries Portfolio Grid Section -->
+    <section id="countries_portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">The 100 most important people</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Let's zoom in the countries!</h2>
+                    <h3 class="section-subheading text-muted">What is associated to each country ?</h3>
                 </div>
             </div>
             <div class="row">
-            {% for post in site.posts %}
+            {% for post in site.posts_countries %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -16,7 +16,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        <img src="img/countries_words/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>{{ post.title }}</h4>
