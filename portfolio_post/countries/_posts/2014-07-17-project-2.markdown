@@ -4,7 +4,7 @@ subtitle: What are their gender ?
 layout: default
 modal-id: 2
 #date: 2014-07-17
-img: de.png
+img: de_map.png
 thumbnail: gender_thumbnail.jpg
 alt: image-alt
 #project-date: April 2014
