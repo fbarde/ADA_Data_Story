@@ -4,7 +4,7 @@ subtitle: What are their religions ?
 layout: default
 modal-id: 7
 img: dreams.png
-thumbnail: religion_thumbnail.png
+thumbnail: religion_thumbnail.jpg
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
