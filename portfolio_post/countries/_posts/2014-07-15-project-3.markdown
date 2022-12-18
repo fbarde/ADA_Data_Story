@@ -1,11 +1,11 @@
 ---
-title: Age
-subtitle: How old are they ?
+title: Norway
+subtitle: What words are associated to Norway?
 layout: default
 modal-id: 3
-#date: 2014-07-16
-img: golden.png
-thumbnail: tranche-dage_thumbnail.png
+#date: 2014-07-15
+img: nw_map.png
+thumbnail: nw_thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap

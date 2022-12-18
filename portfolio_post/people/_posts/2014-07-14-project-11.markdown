@@ -1,11 +1,11 @@
 ---
-title: Occupation
-subtitle: What are their occupations ?
+title: TOP 3
+subtitle: Who are the three most famous ?
 layout: default
-modal-id: 4
-#date: 2014-07-15
-img: Village_ppl100_category.png
-thumbnail: roundicons-thumbnail.png
+modal-id: 11
+#date: 2014-07-14
+img: startup-framework.png
+thumbnail: top3_thumbnail.jpg
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap

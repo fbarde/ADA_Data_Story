@@ -1,11 +1,11 @@
 ---
-title: Norway
-subtitle: What are their occupations ?
+title: Mexico
+subtitle: What words are associated to Mexico?
 layout: default
-modal-id: 9
-#date: 2014-07-15
-img: nw_map.png
-thumbnail: roundicons-thumbnail.png
+modal-id: 2
+#date: 2014-07-16
+img: mex_map_ok.png
+thumbnail: mex_thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap

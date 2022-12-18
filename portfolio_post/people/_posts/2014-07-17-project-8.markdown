@@ -1,11 +1,11 @@
 ---
-title: Mexico
-subtitle: How old are they ?
+title: Gender
+subtitle: What are their gender ? 
 layout: default
 modal-id: 8
-#date: 2014-07-16
-img: mex_map_ok.png
-thumbnail: tranche-dage_thumbnail.png
+#date: 2014-07-17
+img: escape.png
+thumbnail: gender_thumbnail.jpg
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
