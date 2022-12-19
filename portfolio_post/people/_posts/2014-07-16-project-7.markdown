@@ -1,11 +1,11 @@
 ---
-title: Gender
-subtitle: What are their gender ? 
+title: Age
+subtitle: How old are they ?
 layout: default
-modal-id: 8
-#date: 2014-07-17
+modal-id: 7
+#date: 2014-07-16
 img: dreams.png
-thumbnail: gender_thumbnail.jpg
+thumbnail: tranche-dage_thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap

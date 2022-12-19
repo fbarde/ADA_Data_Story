@@ -1,10 +1,11 @@
 ---
-title: Religions
-subtitle: What are their religions ?
+title: Occupation
+subtitle: What are their occupations ?
 layout: default
-modal-id: 7
-img: dreams.png
-thumbnail: religion_thumbnail.jpg
+modal-id: 10
+#date: 2014-07-15
+img: Village_ppl100_category.png
+thumbnail: roundicons-thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap

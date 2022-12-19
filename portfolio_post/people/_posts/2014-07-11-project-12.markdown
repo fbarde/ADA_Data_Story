@@ -1,11 +1,11 @@
 ---
-title: Age
-subtitle: How old are they ?
+title: TOP 3
+subtitle: Who are the three most famous ?
 layout: default
-modal-id: 6
-#date: 2014-07-16
-img: dreams.png
-thumbnail: tranche-dage_thumbnail.png
+modal-id: 12
+#date: 2014-07-14
+img: top3.png
+thumbnail: top3_thumbnail.jpg
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
