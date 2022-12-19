@@ -1,10 +1,11 @@
 ---
-title: US
-subtitle: What words are associated to the US?
+title: Mexico
+subtitle: What words are associated to Mexico?
 layout: default
 modal-id: 5
-img: us_map.png
-thumbnail: us_thumbnail.png
+#date: 2014-07-16
+img: mex_map_ok.png
+thumbnail: mex_thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap

@@ -1,11 +1,11 @@
 ---
-title: Switzerland
-subtitle: What words are associated to Switzerland?
+title: Germany
+subtitle: What words are associated to Germany? 
 layout: default
 modal-id: 4
-#date: 2014-07-15
-img: ch_map.png
-thumbnail: ch_thumbnail.png
+#date: 2014-07-17
+img: de_map.png
+thumbnail: de_thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
