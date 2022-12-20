@@ -9,7 +9,7 @@ alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
 #category: Web Development
-description: Interested in playing a game of Wikispeedia ? Click the <a href="https://dlab.epfl.ch/wikispeedia/play/"> <p class="fst-italic"> yellow link </p></a> ! 
+description: Interested in playing a game of Wikispeedia ? Click the <a href="https://dlab.epfl.ch/wikispeedia/play/"> yellow link </a> ! 
 
 
 ---
