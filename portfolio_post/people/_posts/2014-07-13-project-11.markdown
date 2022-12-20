@@ -5,7 +5,7 @@ layout: default
 modal-id: 11
 #date: 2014-07-15
 img: Village_ppl100_langugaespeople.png
-thumbnail: language_thumbnail.png
+thumbnail: languages_thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
