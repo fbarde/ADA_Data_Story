@@ -1,6 +1,6 @@
 ---
 title: Norway
-subtitle: What words are associated to Norway?
+#subtitle: What words are associated to Norway?
 layout: default
 modal-id: 3
 #date: 2014-07-15

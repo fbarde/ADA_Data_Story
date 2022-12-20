@@ -1,6 +1,6 @@
 ---
 title: Countries
-subtitle: Where do they come from ?
+subtitle: What is their nationality ?
 layout: default
 modal-id: 9
 img: Village_ppl100_nationalitiespeople.png

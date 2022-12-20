@@ -1,6 +1,6 @@
 ---
 title: Continents
-subtitle: Which part of the world are they from ?
+subtitle: Where do they come from ?
 layout: default
 modal-id: 8
 #date: 2014-07-16

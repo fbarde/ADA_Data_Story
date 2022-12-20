@@ -1,6 +1,6 @@
 ---
 title: United Kingdom
-subtitle: What words are associated to the UK?
+#subtitle: What words are associated to the UK?
 layout: default
 modal-id: 2
 img: uk_map.png

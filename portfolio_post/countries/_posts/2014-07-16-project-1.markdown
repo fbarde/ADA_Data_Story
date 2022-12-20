@@ -1,6 +1,6 @@
 ---
 title: US
-subtitle: What words are associated to the US?
+#subtitle: What words are associated to the US?
 layout: default
 modal-id: 1
 img: us_map.png

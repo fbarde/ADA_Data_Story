@@ -1,6 +1,6 @@
 ---
 title: Occupation
-subtitle: What are their occupations ?
+subtitle: What are their professions ?
 layout: default
 modal-id: 12
 #date: 2014-07-15
