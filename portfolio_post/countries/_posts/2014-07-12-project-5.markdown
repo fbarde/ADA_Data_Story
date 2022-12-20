@@ -4,7 +4,7 @@ title: Mexico
 layout: default
 modal-id: 5
 #date: 2014-07-16
-img: mex_map_ok.png
+img: mex_map.png
 thumbnail: mex_thumbnail.png
 alt: image-alt
 #project-date: April 2014
