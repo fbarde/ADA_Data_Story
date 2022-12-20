@@ -1,5 +1,5 @@
 ---
-title: US
+title: United States
 #subtitle: What words are associated to the US?
 layout: default
 modal-id: 1
