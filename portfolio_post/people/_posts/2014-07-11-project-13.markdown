@@ -2,8 +2,8 @@
 title: Religions
 subtitle: What are their religions ?
 layout: default
-modal-id: 11
-img: dreams.png
+modal-id: 13
+img: Village_ppl100_religion.png
 thumbnail: religion_thumbnail.jpg
 alt: image-alt
 #project-date: April 2014

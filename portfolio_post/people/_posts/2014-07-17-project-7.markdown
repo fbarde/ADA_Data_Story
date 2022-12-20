@@ -1,10 +1,11 @@
 ---
-title: Countries
-subtitle: Where do they come from ?
+title: Age
+subtitle: How old are they ?
 layout: default
-modal-id: 8
-img: dreams.png
-thumbnail: countries_thumbnail.png
+modal-id: 7
+#date: 2014-07-16
+img: Village_ppl100_age.png
+thumbnail: tranche-dage_thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap

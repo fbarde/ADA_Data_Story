@@ -1,11 +1,11 @@
 ---
-title: Occupation
-subtitle: What are their occupations ?
+title: Continents
+subtitle: Which part of the world are they from ?
 layout: default
-modal-id: 10
-#date: 2014-07-15
-img: Village_ppl100_category.png
-thumbnail: roundicons-thumbnail.png
+modal-id: 8
+#date: 2014-07-16
+img: Village_ppl100_continent.png
+thumbnail: continents_thumbnail.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
