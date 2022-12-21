@@ -9,7 +9,14 @@
             </div>
 
             <div class="row text-justify">
-                Blablabla <br>
+                When we think about a whole new world, we usually start to think about land, continents and 
+                countries. So a good starting point would be to determine what the WikiCountries are. From the 
+                existing countries that constitute our planet Earth, which ones are the most important according 
+                to Wiki users ? By using the connectivity graph mentioned earlier, we can compute the centrality 
+                score for each country. The countries with the higher centrality are kept as countries constitutive 
+                of our WikiWorld.<br>
+                Are you curious to know if your favorite country made it into the WikiWorld ? Take a look at the 
+                map displaying the centrality scores below !
             </div>
             <br><br>
             <div>
@@ -19,9 +26,20 @@
               <br><br>
 
             <div class="row text-justify">
-                Blablabla <br>
+                As you can see on the map, the United States displays the highest centrality score. They are 
+                closely followed by the United Kingdom. This makes sense as they are both populated by English 
+                speakers and the subset of Wikipedia we used is from the English Wikipedia, thus the english 
+                speaking users have more chance to know more about these countries. Other countries with a high 
+                centrality are Norway, Germany and Mexico.<br>
             </div>
-
+            <br><br>
+            <div class="row text-justify">
+                As all countries belong to a continent, we can also look at  the centrality of entire continents, 
+                thanks to the centrality information of their countries. The bar plot below gives you the scores 
+                for each continent. Here, we take the centrality score of a continent as the mean of the scores of 
+                its countries. Without much surprise, North America possesses the highest centrality. It is 
+                followed by Europe, but from quite a distance…
+            </div>
             <br><br>
 
             <div>
@@ -30,8 +48,16 @@
 
             <br><br>
             <div class="row text-justify">
-                Blablabla<br>
-                Test 1 sans fond
+                Now that we have the centrality information for both countries and continents, it would be nice to 
+                see how these centralities relate to the population size of each country. Indeed, one might naively 
+                think that the more populated a country is, the more influence on the world it has, and the higher 
+                its centrality will be. But is this really the case ?<br>
+                The plot below gathers all this information, to give us a better insight. Each country is 
+                represented by a box, whose size is proportional to the size of its population. The color 
+                associated with the box depends on the centrality of the country and follows the same colour scale 
+                as the one used previously for the map.<br>
+                You can play with this plot by clicking on the boxes, to see which country is associated with which 
+                continent, its population size and centrality. Have fun :)
             </div>
             <br><br>
 
@@ -41,8 +67,33 @@
 
             <br><br>
             <div class="row text-justify">
-                Blablabla<br>
-                Test 1 sans fond
+                Well… It seems that our first intuition that the centrality of a country depends on the size of its 
+                population is not entirely true. Indeed, the Republic of China possesses the bigger population, 
+                with more than 1.3 billion citizens, and yet, its centrality score of 2.02 is pretty average. On 
+                the other hand, the WikiCountries selected previously, such as the US, UK and Norway showed the 
+                highest centralities but clearly don’t have the biggest populations.<br>
+                Thus, it seems that the secret for having a high centrality lies elsewhere… Maybe the centrality of 
+                a country is more determined by its role in the socioeconomic scene. For example, the United 
+                Kingdom has a population of only 60 million citizens, and yet presents the second highest 
+                centrality! But, if you look at the 
+                <a href="https://en.wikipedia.org/wiki/Economy_of_the_United_Kingdom">economy of the U.K.</a>, you 
+                can notice that it is the fifth largest exporter and importer, as well as one of the most 
+                globalized countries.<br>
+                Note that the data were collected before <a href="https://en.wikipedia.org/wiki/Brexit">Brexit</a>.
+                
+                <br><br>
+
+                Fortunately (or unfortunately ?), as we just saw, 
+                <a href="https://en.wikipedia.org/wiki/Globalization">globalization</a> holds 
+                a huge place in our world, and countries interact with each other through people, companies, and 
+                governments worldwide. As a result, the WikiCountries must also be connected to one another in a 
+                certain way. If one counts the number of times Wikipedia’s users link two countries, one can easily 
+                measure the strength of their connection.<br>
+                So let’s get a sneak-peek at these connections for the 15 most central countries of the WikiWorld ! 
+                In the following figure, each node is a country and the node size corresponds to its overall 
+                importance. With the United States as the central hub in this graph, it seems that in our 
+                WikiWorld, the saying would rather be "all roads lead to Washington"...
+
             </div>
             <br><br>
 
@@ -50,8 +101,34 @@
                 <img src="img/countries/pays_en_rond.png" width="560" 
                 height="580" class="img-responsive img-centered" alt="">
             </div>
+            <br><br>
 
+            <div class="row text-justify">
+                Amongst the 15 most represented countries of the WikiWorld, we recognize some that take a 
+                predominant position on the international scene. The Big Five, i.e the 
+                <a href="https://en.wikipedia.org/wiki/Permanent_members_of_the_United_Nations_Security_Council">permanent members of the United Nations Security Council</a> 
+                , that is to say the United States, the United Kingdom, Russia, France and China are all present in 
+                this graph.<br>
+                Furthermore, from an economical point of view, 12 of these countries are in the top 15 of countries 
+                possessing the biggest GDP, from the most recent data available from <a href="https://data.worldbank.org/indicator/Ny.Gdp.Mktp.Cd?most_recent_value_desc=true">WorldBank</a>, as of December 
+                2022.<br>
+                In addition, 6 out of the 7 countries of the G7 are in the top-15 central countries in Wikiworld. 
+                The <a href="https://en.wikipedia.org/wiki/G7">Group of Seven (G7)</a> is an intergovernmental 
+                political forum with members making up world's largest advanced economies that maintain mutually 
+                close political, economic, diplomatic, and military relations.<br>
+                The fact that the predominant countries on the international scene are also leading countries in 
+                the WikiWorld underline the ability of Wikipedia to capture the political and economic organization 
+                of our world.
 
+                <br><br>
+                
+                To sum it up, it seems that, as in the real world, the importance of countries in WikiWorld depends 
+                neither on the size nor on the population of these countries but rather on their politico-economic 
+                place in our current world. Also, don’t forget that the articles used for our study are extracted 
+                from the English Wikipedia. So, the centralities of the countries will be biased in the direction 
+                of English speaking countries.
+
+            </div>
             
         </div>
     </section>
