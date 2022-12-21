@@ -8,35 +8,52 @@
 
         <div class="text-justify">
 
-          I am sure you have already heard of Wikipedia, right ? Every high-school student has already used it 
-          in order to cook up the best presentation for his History class !  With more than 6 million English 
-          articles, Wikipedia can be seen as the world's largest and most-read reference work in history. It is 
-          easy to get lost in this mass of information. However, the platform proposes a quick and easy way to 
-          navigate between this mass of information through the usage of hyperlinks (the blue links) connecting 
-          different articles. These blue links are super useful to go from Christopher Columbus’ Wikipedia page, 
-          to the one of the Americas, but not only ! Indeed, these hyperlinks can give a real insight into the 
-          cultural connections that exist between diverse concepts, such as historical figures and geographical 
-          locations. A game, Wikispeedia provides even more information in that direction !
-
+          I am sure you have already heard of Wikipedia, right ? Every high-school student has already used it in 
+          order to cook up the best presentation for his History class !  With more than 6 million English 
+          articles, Wikipedia can be seen as the world's largest and most-read reference work in history. It might 
+          be easy to get lost in this mass of information. However, the platform proposes a quick and easy way to 
+          navigate between the millions of articles through the usage of hyperlinks connecting different articles. 
+          For example, these blue links are super useful to go from 
+          <a href="https://en.wikipedia.org/wiki/Christopher_Columbus">Christopher Columbus’</a> Wikipedia page, 
+          to the one of the <a href="https://en.wikipedia.org/wiki/Americas">Americas</a>, but not only ! Indeed, 
+          these hyperlinks can give a real insight into the cultural connections that exist between diverse concepts, 
+          such as historical figures and geographical locations. As a game, Wikispeedia provides even more information 
+          in that direction ! 
+        </div>
           <br><br>
           
           <h4 class="section-heading mt-3 mb-3 tb-3">Wikispeedia who?</h4>
-          <div>
-            <a href="https://dlab.epfl.ch/wikispeedia/play/">Wikispeedia</a>Click the link if you want to play a 
-            game ! 
-            <br>
-            The Wikispeedia dataset provides even more information in that direction, by providing link paths made 
-            by players attempting to join two different concepts. These connection paths between articles thus 
-            exhibiting connections in the player’s imagination of these concepts. This connectivity graph allows us
-            to construct a representation of Wikispeedia users reality, described through the centrality of countries,
-            peoples and historical events. Our project aims at observing this vision of the world, and questioning the
-            existing differences with our real world.
-          </div><br>
+          <div class="text-justify">
 
-          <h4 class="section-heading mt-3 mb-3 tb-3">How does it work ?</h4>
-          <div>
-            blablblaaaaaa
-          </div><br>
+            Wikispeedia is a game developed by <a href="https://dlab.epfl.ch/">EPFL Data Science Lab</a> based on 
+            Wikipedia articles. The rules are simple: you are given two Wikipedia articles, and starting from the 
+            first article, your goal is to reach the second one, exclusively by following hyperlinks in the 
+            articles you encounter.<br>
+            The information about the article paths chosen by the players is collected and allows to build the 
+            <a href="https://snap.stanford.edu/data/wikispeedia.html">Wikispeedia dataset</a>.
+            <br><br>
+            Interested in playing a game of Wikispeedia ? Click the 
+            <a href="https://dlab.epfl.ch/wikispeedia/play/"> yellow link </a> !
+          </div>
+
+          <br><br>
+
+          <h4 class="section-heading mt-3 mb-3 tb-3">Why is it useful ?</h4>
+          <div class="text-justify">
+            The Wikispeedia dataset provides link paths made by players attempting to join two different concepts. 
+            But why is it useful and how can we use this ?<br>
+            In fact, these connection paths between articles exhibit patterns from the player’s notions of these 
+            concepts. For example, in people's minds Christopher Columbus is known for discovering the Americas 
+            and not for music or arts. Thus, players will most likely click on the link targeting the Wikipedia 
+            article on Americas.<br>
+            The interesting part is that from these connection paths we can build a connectivity graph. This graph 
+            allows us to construct a representation of Wikispeedia users’ reality, described through the centrality 
+            of countries, peoples and other concepts in this graph!<br>
+            In the end, a new and reduced vision of the world can be built using data from the players’ games. This 
+            website is dedicated to constructing this summarizing vision of the world: WikiWorld! We also question 
+            the existing differences with our real world: does this representation of Wikispeedia users' reality 
+            correspond to our own ?
+          </div>
 
           <br><br>
           
