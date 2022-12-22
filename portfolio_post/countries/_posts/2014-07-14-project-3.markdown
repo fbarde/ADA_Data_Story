@@ -10,6 +10,6 @@ alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
 #category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: How come that *Acid rain* is part of this map? As dystopian as it sounds, acid rain is a concrete phenomenon that occurs when rain has a pH slightly lower than usual, and it has harmful effects on soils and waters. In the 1970s, <a href="https://en.wikipedia.org/wiki/Brynjulf_Ottar">Brynjulf Ottar</a>, a Norwegian (!) atmospheric chemist that worked on long-range transport air pollution, alerted the world on the issue of acid rain, that damaged biodiversity in thousands of Norway lakes, due to industrial and power plant air pollution coming from the United Kingdom, Germany and France. Norway is geographically much exposed to air pollution of these countries and even though concerns were raised on its environmental impact, no international action resulted from it.<br><br>
+Political and historical aspects of Norway are also shown, as it was both a member of the *European Union* and *NATO*, and Wikispeedia players seem to be thinking about *Vikings* when picturing the inhabitants of Norway. *Glacier* is also semantically really close to Norway, but it is no wonder when we know that it accounts for no less than <a href="https://en.wikipedia.org/wiki/List_of_glaciers_in_Norway">1%</a> of the mainland territory. <br><br>
 ---
