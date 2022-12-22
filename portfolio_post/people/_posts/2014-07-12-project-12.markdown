@@ -10,6 +10,6 @@ alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
 #category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: The opportunities are very diverse for a WikiPerson and our WikiPeople seem to be quite studious ! However, it appears that all WikiCitizens work in the tertiary sector such as arts, science, politics, religion or army. It thus seems that WikiPeople do not need to eat… Also, note that one of the most represented categories is the Historical people, which would explain why most of our WikiPeople are already dead…<br><br>
 
 ---

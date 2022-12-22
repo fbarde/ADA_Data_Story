@@ -10,6 +10,6 @@ alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
 #category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Annnd our top 3 are the famous <a href="https://en.wikipedia.org/wiki/George_W._Bush">George W. Bush</a>, <a href="https://en.wikipedia.org/wiki/Elizabeth_I">Queen Elizabeth II</a> and <a href="https://en.wikipedia.org/wiki/J._K._Rowling">J. K. Rowling</a> ! <br><br> Surprisingly, two of the three most famous WikiPeople are women, where WikiWorld only hosts 7% of them. Even if they are few, they seem to be subjected to a lot of acknowledgement. The two political leaders of the two main countries of the WikiWorld also seem to be well-known by their population. Moreover, it seems that WikiPeople need fiction, since a best-seller writer is part of the three most famous of them.<br> Did you expect J. K. Rowling to be the third most famous person? When you know that the successful author of Harry Potter was named "the first billion-dollar author" in 2004 by Forbes, or was made a Chevalier de la Légion d'Honneur by the former French president Nicolas Sarkozy, it becomes less surprising…  Once again note that the data come from the English Wikipedia. If we used data from the French Wikipedia, the results would probably have been quite different !<br><br>
 
 ---
