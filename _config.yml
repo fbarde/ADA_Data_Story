@@ -25,7 +25,7 @@ people:
   position: Master Computational Sciences
   social:
     - title: envelope
-      url: manon.bechaz@epfl.ch
+      url: mailto:manon.bechaz@epfl.ch
     - title: github
       url: #
     - title: linkedin
@@ -36,7 +36,7 @@ people:
   position: Master Physics
   social:
     - title: envelope
-      url: zoe.jeandupeux@epfl.ch
+      url: mailto:zoe.jeandupeux@epfl.ch
     - title: github
       url: #
     - title: linkedin
@@ -47,7 +47,7 @@ people:
   position: Master Physics
   social:
     - title: envelope
-      url: killian.rigaux@epfl.ch
+      url: mailto:killian.rigaux@epfl.ch
     - title: github
       url: #
     - title: linkedin
