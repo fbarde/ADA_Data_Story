@@ -3,10 +3,26 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Zoom in countries</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading">Let’s zoom in !</h2>
+                <h3 class="section-subheading text-muted">What words are associated to each WikiCountry ?</h3>
             </div>
         </div>
+
+        <div class="row text-justify">
+            We now have our WikiCountries, but so far they seem quite impersonal don’t you think ? Let's dive a 
+            little deeper into these countries and see what defines their identity within the WikiWorld. In other 
+            words, how can we describe the WikiCountries ?<br>
+            To do so, one can derive a semantic distance 
+            (introduced <a href="http://infolab.stanford.edu/~west1/pubs/West-Pineau-Precup_IJCAI-09.pdf">here</a> 
+            that would represent how close two concepts are in terms of meaning. So let's see which to words users 
+            think when they look for the most central countries in the game.<br>
+            Click on the flags of the countries to have a look at the associated concepts ! The larger the words, 
+            the more related they are to the corresponding country. Play around the Wikipedia articles to find a 
+            relation between the words and their country!
+        </div>
+
+        <br><br>
+        
         <div class="row">
         {% for post in site.categories.countries %}
             <div class="col-md-4 col-sm-6 portfolio-item">
