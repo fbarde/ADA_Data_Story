@@ -10,6 +10,5 @@ alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
 #category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: It seems that more than half of the WikiPeople live in Europe. This is a bit surprising, as we saw previously that Europe doesn’t have the bigger population, nor the highest centrality. The fact that this continent possesses most of the famous people might be caused, for example, by the fact that countries in Europe have an older history than North America. In addition, a majority of the most famous people are already dead, which may support that idea. Eventually, one notices that almost all the continents are represented, with the exception of South-Central America. <br><br>
 ---

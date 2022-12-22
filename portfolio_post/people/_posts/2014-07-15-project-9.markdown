@@ -9,6 +9,5 @@ alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
 #category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: The WikiWorld is mostly polarized between the United Kingdom and the United States of America, that gather most of the WikiCitizens. Many small countries still manage to bring a bit of diversity, but are not prized by the WikiCitizens. Also, note that a parallel can be made between the number of famous people coming from a country and the high centrality of these countries. It seems that famous people often come from central countries. <br><br>
 ---

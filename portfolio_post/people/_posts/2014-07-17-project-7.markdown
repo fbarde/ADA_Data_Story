@@ -10,6 +10,5 @@ alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
 #category: Web Development
-description: What a surprise! The vast majority of the WikiPeople turns out to be dead. Apparently, the WikiWorld is therefore mainly composed of WikiZombies…  Among the twelve WikiPeople alive, the youngest one belongs to the 40+ years old category.
-
+description: What a surprise! The vast majority of the WikiPeople turns out to be dead. Apparently, the WikiWorld is therefore mainly composed of WikiZombies…  Among the twelve WikiPeople alive, the youngest one belongs to the 40+ years old category. This is certainly due to the fact that the fame of someone (and hence their Wikipedia page) often comes over time, and even after their death. This is particularly true for artists and scientists, for which the value of their work is often discovered post mortem. <br><br>
 ---

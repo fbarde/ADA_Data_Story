@@ -10,6 +10,5 @@ alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
 #category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: Parity seems to be lacking in the WikiWorld. Indeed, women only represent 7% of the society in WikiWorld... We are very far from the sex ratio in humans, close to 1:1. It conveys the absence of representation of the women of our world in history, still too often underestimated for their accomplishments, such as <a href="https://en.wikipedia.org/wiki/Rosalind_Franklin">Rosalind Franklin</a> for her role in the discovery of the DNA structure that only gained full recognition years later and postmortem…<br><br>
 ---

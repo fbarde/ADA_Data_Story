@@ -10,6 +10,6 @@ alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
 #category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: If many of the WikiPeople speak the unique language of the two main WikiCountries,English, an important part of the WikiCitizens also speak other (and various) languages. Looking at our real world, with its 7000 different languages and even more dialects, it makes sense that some of this diversity is represented. Similarly, if we remember that we use the English Wikipedia it is also not surprising that the main language of the people in WikiWorld is English.<br> If such a diversity can cause trouble for communication between WikiCitizen, this should not be a big deal; it is rumored that a new language is soon going to be taught in WikiSchools, the Newspeak.<br><br>
 
 ---
